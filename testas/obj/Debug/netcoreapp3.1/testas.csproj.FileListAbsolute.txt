@@ -1,0 +1,14 @@
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.csproj.AssemblyReference.cache
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.AssemblyInfoInputs.cache
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.AssemblyInfo.cs
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.csproj.CoreCompileInputs.cache
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.exe
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.deps.json
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.runtimeconfig.json
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.runtimeconfig.dev.json
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.dll
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\bin\Debug\netcoreapp3.1\testas.pdb
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.dll
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.pdb
+C:\Users\ginta\OneDrive\Stalinis kompiuteris\testas\testas\obj\Debug\netcoreapp3.1\testas.genruntimeconfig.cache
