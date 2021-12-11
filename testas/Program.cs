@@ -15,9 +15,8 @@ namespace testas
             int visoSukurta10 = bilietai10.Count;
             int visoSukurta20 = bilietai20.Count;
             int visoSukurta30 = bilietai30.Count;
-            int visoParduota10 =
-            int visoParduota20 =
-            int visoParduota30 =
+          
+            
             while (goOn == "taip")
             {
                 Console.WriteLine("Sveiki atvykę į bilietų kūrimo programą!");
