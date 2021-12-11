@@ -5,20 +5,26 @@ namespace testas
 {
     class Program
     {
+
         public static void Main(string[] args)
         {
             string goOn = "taip";
-           
+            List<int> bilietai10 = new List<int>();
+            List<int> bilietai20 = new List<int>();
+            List<int> bilietai30 = new List<int>();
+            int visoSukurta10 = bilietai10.Count;
+            int visoSukurta20 = bilietai20.Count;
+            int visoSukurta30 = bilietai30.Count;
+            int visoParduota10 =
+            int visoParduota20 =
+            int visoParduota30 =
             while (goOn == "taip")
             {
                 Console.WriteLine("Sveiki atvykę į bilietų kūrimo programą!");
-                List<int> bilietai10 = new List<int>();
-                List<int> bilietai20 = new List<int>();
-                List<int> bilietai30 = new List<int>();
-
+                
                 Console.Write("Kurti bilietus [1]   ");
                 Console.Write("Parduoti bilietus [2]   ");
-                Console.WriteLine("Parduotu bilietu ataskaita [3]   ");
+                Console.WriteLine("Bilietu ataskaita [3]   ");
 
                 int vartotojoIvestis = Int32.Parse(Console.ReadLine());
                 if (vartotojoIvestis == 1)
@@ -63,9 +69,8 @@ namespace testas
                 }
                 else if (vartotojoIvestis == 3)
                 {
-                    JauParduotaBilietu10(bilietai10);
-                    JauParduotaBilietu20(bilietai20);
-                    JauParduotaBilietu30(bilietai30);
+                    Console.WriteLine($"Is viso sukurta {visoSukurta10} po 10 euru, {visoSukurta20} po 20 euru, {visoSukurta30} po 30 euru");
+                    NepanaudotiBilietai(bilietai10, bilietai20, bilietai30);
                 }
                 else
                 {
@@ -79,13 +84,13 @@ namespace testas
         }
 
 
-        static int KurtiBilietus10(List <int> bilietai10)
+        public static int KurtiBilietus10(List <int> bilietai10)
         {
              
              
             Console.WriteLine("Kiek bilietu po 10 euru noresite sukurti?");
             string naujibilietai10 = Console.ReadLine();
-
+            
             if (int.TryParse(naujibilietai10, out int bilietai10skaicius))
             {
                 for (int i = 0; i < bilietai10skaicius; i++)
@@ -205,19 +210,14 @@ namespace testas
             return bilietai30skaicius;
         }
 
-        static void JauParduotaBilietu10(List<int> bilietai10)
+        static void NepanaudotiBilietai(List <int> bilietai10, List<int> bilietai20, List<int> bilietai30)
         {
-            Console.WriteLine($"Uz 10 euru parduota {bilietai10.Count-}");
+            Console.WriteLine($"Uz 10 euru bilietu likutis {KurtiBilietus10(bilietai10)- ParduotiBilietus10(bilietai10)}");
+            Console.WriteLine($"Uz 20 euru bilietu likutis {KurtiBilietus20(bilietai20) - ParduotiBilietus20(bilietai20)}");
+            Console.WriteLine($"Uz 30 euru bilietu likutis {KurtiBilietus30(bilietai10) - ParduotiBilietus30(bilietai30)}");
         }
 
-        static void JauParduotaBilietu20(List<int> bilietai20)
-        {
-            Console.WriteLine($"Uz 20 euru parduota {bilietai20.Count}");
-        }
-        static void JauParduotaBilietu30(List<int> bilietai30)
-        {
-            Console.WriteLine($"Uz 30 euru parduota {bilietai30.Count}");
-        }
+
 
     }
 
